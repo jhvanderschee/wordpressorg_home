@@ -1,0 +1,64 @@
+*, ::after, ::before {padding: 0; margin: 0; box-sizing: border-box;}
+
+body {font-family: 'Inter', sans-serif; font-size: 16px; line-height: 1.625;}
+
+h1, h2 {font-family: 'EB Garamond', serif; line-height: 1; font-size: 120px; font-weight: normal; margin-bottom: 30px;}
+h2 {font-size: 50px;}
+h3 {font-size: 20px; font-weight: bold; margin-bottom: 10px;}
+p, ul {margin-bottom: 30px;}
+p:last-child, ul:last-child {margin: 0;}
+a {color: rgb(56, 88, 233); text-decoration: none;}
+a:hover {text-decoration: underline;}
+.blue a, .dark a {color: white;}
+
+img {max-width: 100%; display: inline-block;}
+body > div > p > img {width: 100%; display: block;}
+
+.container {max-width: calc(1160px + 12vw); margin: 0 auto; padding-left: 6vw; padding-right: 6vw;}
+.footer {padding-left: 6vw; padding-right: 6vw; padding-bottom: 58px; padding-top: 69px;}
+.footer ul {margin: 0;}
+.footer ul li {list-style: none;}
+
+.white {background: white;}
+.lightgray {background: #f6f6f6; color: rgb(56, 88, 233);}
+.lightblue {background: rgb(239, 242, 255);}
+.dark {background: #202224; color: white;}
+.blue {background: rgb(56, 88, 233); color: white;}
+.textcenter {text-align: center;}
+.maxwidth {max-width: 928px;}
+.button {
+    background-color: rgb(56, 88, 233); 
+    color: white;
+    padding: 17px 33px;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 1;
+}
+a.button:hover {text-decoration: none; background: rgb(33, 63, 212);}
+.twocols {display: grid; grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); grid-gap: 100px;}
+.thirdtwothird {}
+
+.section1 {padding: 120px 0;}
+.section2 {padding: 8px 0; font-size: 12px; line-height: 1.4;}
+.section3 {padding: 120px 0; background: url(/img/Editor.webp) center center / cover no-repeat;}
+.section3 .center {max-width: 520px; margin: 0 auto;}
+.section3 .center h2 {text-align: right; color: rgb(255, 233, 222); font-size: 120px;}
+.section3 .center p a {color: rgb(123, 144, 255)!important;}
+.section4 {padding: 80px 0;}
+.section4 h2 {margin-right: 100px;}
+.section5 {padding: 80px 0 0;}
+.section5 h2 + p {max-width: 464px;}
+.section5 ul {display: flex; flex-wrap: wrap; justify-content: space-between;}
+.section5 ul li {list-style: none;}
+.section5 ul li img {height: 33px;}
+.section5 > p > img {margin-top: 80px;}
+.section6 {padding: 160px 0;}
+.section7 {padding: 0 0 100px;}
+.section7 h2 {font-size: 120px;}
+.section7 .button {border: 1px solid rgb(56, 88, 233); color: rgb(56, 88, 233); background: transparent;}
+.section7 .button:hover {color: white; background: rgb(56, 88, 233);}
+.section7 > p {height: 500px; width: 100%; position: relative; overflow: hidden; display: block;}
+.section7 > p > img {position: absolute; bottom: 0; margin-bottom: -3px;}
+.section8 {padding: 80px 0;}
+.section9 {padding: 80px 0;}
